@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Volumes/GoogleDrive-117546556766760976414/My Drive/Final_Project/Speaker_Profiling_Master/SpeakerProfiling/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

@@ -1,0 +1,11 @@
+torch>=1.7
+torchaudio>=0.7.2
+wavencoder
+pytorch-lightning==1.6.4
+sklearn
+torch-optimizer
+wandb
+tensorboardx
+numpy
+blitz
+blitz-bayesian-pytorch
