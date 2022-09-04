@@ -160,7 +160,7 @@ def merge_train_test_csvs(train_csv_path, test_csv_path, target_csv_path):
 if __name__ == '__main__':
     full_df_csv_file_path   = '/Users/oriohayon/GitHub/voxceleb_enrichment_age_gender/dataset/final_dataframe_extended.csv'
     enriched_csv_file_path  = '/Users/oriohayon/GitHub/voxceleb_enrichment_age_gender/dataset/final_narrowed.csv'
-    # create_enriched_csv_dataset(full_df_csv_file_path, enriched_csv_file_path)
+    create_enriched_csv_dataset(full_df_csv_file_path, enriched_csv_file_path)
 
     # # Generate Train & Val dataset:
     dataset_name = 'FULL_BAL'
