@@ -1,4 +1,4 @@
-# Speaker Profiling
+# Speaker's Age Estimation
 
 This Repository contains the implementation of models, datasets and ideas in the DL final project - "Speaker Age Estimation – “In the Wild”" by Ori Ohayon
 
@@ -20,10 +20,11 @@ Note:
 
 - We provide the csv files contains the information regarding each dataset under the voxceleb_dataset directory
 
-### Update Config and Logger
-Update the config.py file to update the batch_size, gpus, lr, etc
-
 ### Training and Testing
+In order to train we can run the train_voxceleb.py script with arguments (specified in the config.py file)
+
+To test we can similarly run the test_voxceleb.py script with arguments as in the train (specifying the model to load using --model_checkpoint=<`path to model'>)
+
 We provide the colab notebook SpeakersAgeEst.ipynb with short scripts example of training and testing
 
 ## Reference
